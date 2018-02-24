@@ -19,8 +19,8 @@ This code can be used to  fetch orders based on a specified time span (Fetching 
     $password = '<secret here>';
   
     // These can be augmented in order to change time span
-    $from_date = "2017-05-31T23:59:59"
-    $to_date = "2017-07-01T00:00:00"
+    $from_date = "2017-05-31T23:59:59";
+    $to_date = "2017-07-01T00:00:00";
 
     $url = "https://insilla.vooforce.com/wp-json/wc/v2/orders?after=$from_date&before=$to_date";
 
